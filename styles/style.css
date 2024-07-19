@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url("./media.css");
+@import url("./faq-container.css");
+@import url("./footer.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+    background-color: #1c1c1c;
+    color: #fff;
+    cursor: default;
+}
+
+.main {
+    min-height: calc(100vh - 50px);
+
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 3em;
+    padding: 30px 0 15px 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 80%;
+    margin: 0 auto 5em auto;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
